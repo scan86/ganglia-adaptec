@@ -1,0 +1,190 @@
+Controllers found: 1
+----------------------------------------------------------------------
+Controller information
+----------------------------------------------------------------------
+   Controller Status                        : Optimal
+   Channel description                      : SAS/SATA
+   Controller Model                         : Adaptec 2405
+   Controller Serial Number                 : 0D221162E32
+   Physical Slot                            : 1
+   Temperature                              : 51 C/ 123 F (Normal)
+   Installed memory                         : 128 MB
+   Copyback                                 : Disabled
+   Background consistency check             : Enabled
+   Automatic Failover                       : Enabled
+   Global task priority                     : High
+   Performance Mode                         : Default/Dynamic
+   Stayawake period                         : Disabled
+   Spinup limit internal drives             : 0
+   Spinup limit external drives             : 0
+   Defunct disk drive count                 : 0
+   Logical devices/Failed/Degraded          : 2/0/0
+   SSDs assigned to MaxCache pool           : 0
+   Maximum SSDs allowed in MaxCache pool    : 8
+   MaxCache Read Cache Pool Size            : 0.000 GB
+   MaxCache flush and fetch rate            : 0
+   MaxCache Read, Write Balance Factor      : 3,1
+   NCQ status                               : Enabled
+   Statistics data collection mode          : Enabled
+   --------------------------------------------------------
+   Controller Version Information
+   --------------------------------------------------------
+   BIOS                                     : 5.2-0 (17911)
+   Firmware                                 : 5.2-0 (17911)
+   Driver                                   : 1.1-5 (24702)
+   Boot Flash                               : 5.2-0 (17911)
+
+----------------------------------------------------------------------
+Logical device information
+----------------------------------------------------------------------
+Logical device number 0
+   Logical device name                      : mirror0
+   RAID level                               : 1
+   Status of logical device                 : Optimal
+   Size                                     : 476150 MB
+   Read-cache mode                          : Enabled
+   MaxCache preferred read cache setting    : Disabled
+   MaxCache read cache setting              : Disabled
+   Write-cache mode                         : Enabled (write-back)
+   Write-cache setting                      : Enabled (write-back)
+   Partitioned                              : Yes
+   Protected by Hot-Spare                   : No
+   Bootable                                 : Yes
+   Failed stripes                           : No
+   Power settings                           : Disabled
+   --------------------------------------------------------
+   Logical device segment information
+   --------------------------------------------------------
+   Segment 0                                : Present (Controller:1,Enclosure:0,Slot:2)      WD-WCASYE623376
+   Segment 1                                : Present (Controller:1,Enclosure:0,Slot:3)      WD-WCASYE621188
+
+Logical device number 1
+   Logical device name                      : stripe0
+   RAID level                               : 0
+   Status of logical device                 : Optimal
+   Size                                     : 152390 MB
+   Stripe-unit size                         : 128 KB
+   Read-cache mode                          : Enabled
+   MaxCache preferred read cache setting    : Disabled
+   MaxCache read cache setting              : Disabled
+   Write-cache mode                         : Enabled (write-back)
+   Write-cache setting                      : Enabled (write-back)
+   Partitioned                              : Yes
+   Protected by Hot-Spare                   : No
+   Bootable                                 : No
+   Failed stripes                           : No
+   Power settings                           : Disabled
+   --------------------------------------------------------
+   Logical device segment information
+   --------------------------------------------------------
+   Segment 0                                : Present (Controller:1,Enclosure:0,Slot:0) CVPO018302JQ080JGN
+   Segment 1                                : Present (Controller:1,Enclosure:0,Slot:1) CVPO018205J2080JGN
+
+
+----------------------------------------------------------------------
+Physical Device information
+----------------------------------------------------------------------
+      Device #0
+         Device is a Hard drive
+         State                              : Online
+         Supported                          : Yes
+         Transfer Speed                     : SATA 3.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,0(0:0)
+         Reported Location                  : Enclosure 0, Slot 0
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : INTEL
+         Model                              : SSDSA2M080
+         Firmware                           : 2CV102HD
+         Serial number                      : CVPO018302JQ080JGN
+         Size                               : 76319 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : Yes
+         MaxCache Capable                   : No
+         MaxCache Assigned                  : No
+         NCQ status                         : Enabled
+      Device #1
+         Device is a Hard drive
+         State                              : Online
+         Supported                          : Yes
+         Transfer Speed                     : SATA 3.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,1(1:0)
+         Reported Location                  : Enclosure 0, Slot 1
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : INTEL
+         Model                              : SSDSA2M080
+         Firmware                           : 2CV102HD
+         Serial number                      : CVPO018205J2080JGN
+         Size                               : 76319 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : Yes
+         MaxCache Capable                   : No
+         MaxCache Assigned                  : No
+         NCQ status                         : Enabled
+      Device #2
+         Device is a Hard drive
+         State                              : Online
+         Supported                          : Yes
+         Transfer Speed                     : SATA 3.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,2(2:0)
+         Reported Location                  : Enclosure 0, Slot 2
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : WDC
+         Model                              : WD5002ABYS-0
+         Firmware                           : 02.03B03
+         Serial number                      : WD-WCASYE623376
+         Size                               : 476940 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : No
+         MaxCache Capable                   : No
+         MaxCache Assigned                  : No
+         NCQ status                         : Enabled
+      Device #3
+         Device is a Hard drive
+         State                              : Online
+         Supported                          : Yes
+         Transfer Speed                     : SATA 3.0 Gb/s
+         Reported Channel,Device(T:L)       : 0,3(3:0)
+         Reported Location                  : Enclosure 0, Slot 3
+         Reported ESD(T:L)                  : 2,0(0:0)
+         Vendor                             : WDC
+         Model                              : WD5002ABYS-0
+         Firmware                           : 02.03B03
+         Serial number                      : WD-WCASYE621188
+         Size                               : 476940 MB
+         Write Cache                        : Enabled (write-back)
+         FRU                                : None
+         S.M.A.R.T.                         : No
+         S.M.A.R.T. warnings                : 0
+         Power State                        : Full rpm
+         Supported Power States             : Full rpm,Powered off
+         SSD                                : No
+         MaxCache Capable                   : No
+         MaxCache Assigned                  : No
+         NCQ status                         : Enabled
+      Device #4
+         Device is an Enclosure services device
+         Reported Channel,Device(T:L)       : 2,0(0:0)
+         Enclosure ID                       : 0
+         Type                               : SES2
+         Vendor                             : ADAPTEC
+         Model                              : Virtual SGPIO
+         Firmware                           : 0001
+         Status of Enclosure services device
+
+
+Command completed successfully.
