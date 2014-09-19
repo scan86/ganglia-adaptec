@@ -23,24 +23,27 @@ use warnings;
 use diagnostics;
 use Switch;
 
-open(my $fh, '<',  "arcconf");
+my $arcconf_bin = "/usr/StorMan/arcconf";
+my $arcconf_opts = "GETCONFIG 1";
+my $arcconf_cmdline = $arcconf_bin . " " . $arcconf_opts;
 
-my $t;
-my $online_disks = 0;
+
+open(my $fh, '<',  "arcconf");
 
 my $temperature;
 my $onlineDrives = 0;
 
+
 while(<$fh>) {
  switch () {
    case m/Temperature/ { $temperature = $1 if (/:\ (\d+)/) }
-   case m/Device is a Hard drive/ { checkDrive($_)  }   
+   case m/Device is a Hard drive/ { checkDrive($_) }
  }
 
 }
 
 sub checkDrive {
- if ((my $line = <$fh>) =~ /Online/) { $onlineDrives++ }
+ if ((my $nextLine = <$fh>) =~ /Online/) { $onlineDrives++ }
 }
 
 print $temperature, "\n";
